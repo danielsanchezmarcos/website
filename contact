@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    <link rel="stylesheet" href="/Users/danielsanchezmarcos/Desktop/1/styles.css">
+
+  </head>
+  <body>
+    <style>
+    form {
+      text-align: center;
+      padding: 5px;
+    }
+    h3 {
+      text-align: center;
+
+    }
+    p {
+      text-align: center;
+
+    }
+    </style>
+    <h3>Contact details</h3>
+    <p><em>Dani Sánchez Marcos</em></p>
+    <p><em>Web developer based in Amsterdam(NL)</em></p>
+      <br></br>
+      <hr></hr>
+      <br></br>
+    <p><a href="mailto:danielsanchezmarcos@gmail.com?subject=feedback"><big>📧</big></a>
+      <br></br>
+      <hr></hr>
+      <br></br>
+    <p>Or send me a message:</p>
+    <form class="" action="index.html" method="post">
+      <label>Your name:</label>
+      <input type="text" name="yourName" value="">
+      <input type="submit" name="">
+
+      <br></br>
+
+      <label>Your age:</label></td>
+      <input type="number" name="yourAge" value=""></td>
+      <input type="submit" name=""></td>
+
+      <br></br>
+
+      <label for="Gendre">Your gendre:</label>
+      <input type="checkbox" name="yourGendre" value="Male">Male</input>
+      <input type="checkbox" name="yourGendre" value="Female">Female</input>
+      <input type="checkbox" name="yourGendre" value="Other">Other</input>
+      <input type="submit" name="">
+
+      <br></br>
+
+      <label>Your message:</label>
+
+      <br></br>
+      <textarea name="message" rows="8" cols="50"></textarea>
+      <br></br>
+      <input type="submit" name="enviar">
+      <br></br>
+
+      <hr></hr>
+
+    </form>
+
+
+
+    <p><a href="/Users/danielsanchezmarcos/Desktop/1/index.html">Back to Dani's personal site</p>
+  </body>
+</html>
